@@ -1,12 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>stanok.ua</title>
+	<link rel="stylesheet" href="css/style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script type="text/javascript"  src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 <body>
-  <div>Hello world</div>
+	<div class="main_container">
+
+
+<!-- Шапка -->
+	<nav>
+		<ul>
+			<li class="logo">
+				<a href="#">ArtGlass</a>
+			</li>
+			<li class="items">
+				<a href="#">Наши работы</a>
+			</li>
+			<li class="items">
+				<a href="#">Товар</a>
+			</li>
+			<li class="items">
+				<a href="#">Доставка</a>
+			</li>
+			<li class="items">
+				<a href="#">Контакты</a>
+			</li>
+			<li class="btn">
+				<a href="#">
+				<i class="fas fa-bars"></i>
+			</a>
+		</li>
+		</ul>
+	</nav>
+
+
+
+<!--товар -->
+<div class="wrapper">
+
+
+
+	<div class="card">
+		<img src="img/im1.jpg" alt="">
+
+	<div class="content">
+		<div class="row">
+			<div class="details">
+				<span>Headphone</span>
+				<p>Premium headphone</p>
+			</div>
+			<div class="price">
+				$30
+			</div>
+			<div class="buttons">
+				<button>But Now</button>
+				<button>Add to Card</button>
+			</div>
+		</div>
+	</div>
+</div>
+		<div class="card">
+		<img src="img/im2.jpg" alt="">
+
+	<div class="content">
+		<div class="row">
+			<div class="details">
+				<span>Headphone</span>
+				<p>Premium headphone</p>
+			</div>
+			<div class="price">
+				$30
+			</div>
+			<div class="buttons">
+				<button>But Now</button>
+				<button>Add to Card</button>
+			</div>
+		</div>
+	</div>
+</div>
+		<div class="card">
+		<img src="img/im3.jpg" alt="">
+
+	<div class="content">
+		<div class="row">
+			<div class="details">
+				<span>Headphone</span>
+				<p>Premium headphone</p>
+			</div>
+			<div class="price">
+				$30
+			</div>
+			<div class="buttons">
+				<button>But Now</button>
+				<button>Add to Card</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+</div>
+<!--товар -->
+
+
+</div>
+<script>
+	//бургер меню
+	$(document).ready(function(){
+		$('.btn').click(function(){
+			$('.items').toggleClass("show");
+			$('ul li').toggleClass("hide");
+		})
+	})
+</script>
+
 </body>
 </html>
