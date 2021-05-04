@@ -5,7 +5,7 @@
 }
 
 body{
-	
+
 	background-color: #F5F5F7;
 
 }
@@ -83,39 +83,9 @@ nav ul li.btn{
 nav ul li.btn.hide i:before{
 	content: '\f00d';
 }
+/* конец шапки */
 
 
-
-/* товар */
-
-.wrapper{
-	max-width: 1130px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	
-}
-
-.wrapper .card{
-	max-width: calc(50% - 13px);
-	border-radius: 3px;
-	background: #fff;
-}
-.wrapper .card img{
-width:100%;
-}
-.wrapper .card .content{
-	padding:10px 20px 22px 20px;
-}
-.card .content .row{
-	display: flex;
-	justify-content: space-between;
-}
-.content .row .details span{
-	font-size: 22px;
-	font-weight: 500;
-}
-/* товар */
 
 @media all and (max-width: 900px){
 	nav{
@@ -141,4 +111,3 @@ width:100%;
 		display:block;
 	}
 }
-
